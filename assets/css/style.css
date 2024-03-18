@@ -8,6 +8,9 @@ body{
     direction: rtl;
    
 }
+.mb-n3 {
+    margin-bottom:-1rem;
+}
 .base-color{
     color: #3440B5;
 }

@@ -1,317 +1,559 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-    <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Tajawal"
+      rel="stylesheet"
+    />
     <style>
-    body {
-        font-family: 'Tajawal';
-        font-family: 'Tajawal';
-        }
-
-</style>
-
-</head>
-<body>
-    
+      body {
+        font-family: "Tajawal";
+        font-family: "Tajawal";
+      }
+    </style>
+  </head>
+  <body>
     <!-- navbar section -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-nav-color">
-        <a class="navbar-brand" href="#"><img src="../assets/icons/Home_page/icon1.PNG" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item text-white">
-                    <a class="nav-link" href="../index.html">الرئيسية</a>
-                </li>
-                <li class="nav-item dropdown position-relative dropdown-list-hover">
-                    <a class="nav-link dropdown-toggle active" href="../about.html" id="navbarDropdow"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    عن الجمعية
-                    </a>
-                                        <div class="dropdown-list p-2">
-                        <a class="dropdown-item border-bottom" href="about_us.html">من نحن</a>
-                        <a class="dropdown-item border-bottom" href="board_members.html">أعضاء مجلس الادارة</a>
-                        <a class="dropdown-item border-bottom" href="general_assembly_members.html">أعضاء الجمعية العموميه</a>
-                        <a class="dropdown-item border-bottom" href="CEO.html">المدير التنفيذي</a>
-                        <a class="dropdown-item border-bottom" href="association _team.html">فريق عمل الجمعية</a>
-                        <a class="dropdown-item border-bottom" href="organizational_structure.html">الهيكل التنظيمي</a>
-                        <a class="dropdown-item" href="our_services.html">خدماتنا</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Our_initiatives.html">مبادراتنا</a>
-                </li>
-                <li class="nav-item dropdown position-relative dropdown-list-hover">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  ="dropdown" aria-haspopup="true" aria-expanded="false">
-                    المركز الاعلامي
-                    </a>
-                    <div class="dropdown-list p-2" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item border-bottom" href="../Media-Center/news.html">الاخبار</a>
-                        <a class="dropdown-item border-bottom" href="../Media-Center/events.html">الفعاليات</a>
-                        <a class="dropdown-item border-bottom" href="../Media-Center/photo_gallery.html">مكتبة الصور</a>
-                        <a class="dropdown-item border-bottom" href="../Media-Center/video_gallery.html">مكتبة الفيديو</a>
-                        <a class="dropdown-item" href="../Media-Center/FAQs.html">الأسئله الشائعة</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown position-relative dropdown-list-hover">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  ="dropdown" aria-haspopup="true" aria-expanded="false">
-                    الحوكمة
-                    </a>
-                    <div class="dropdown-list p-2" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item border-bottom" href="../Governance/regulations&policies.html">اللوائح والسياسات</a>
-                        <a class="dropdown-item border-bottom" href="../Governance/operational_plans.html">الخطط التشغيلية</a>
-                        <a class="dropdown-item border-bottom" href="../Governance/Activity_Reports.html">تقارير الأنشطة</a>
-                        <a class="dropdown-item border-bottom" href="../Governance/Financial_Reports.html">التقارير المالية</a>
-                        <a class="dropdown-item border-bottom" href="../Governance/General_Assembly_Minutes.html">محاضر العموميه</a>
-                        <a class="dropdown-item border-bottom" href="../Governance/Disclosure&Transparency.html">الإفصاح والشفافية</a>
-                        <a class="dropdown-item" href="../Governance/Other.html">أخري</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown position-relative dropdown-list-hover">      
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  ="dropdown" aria-haspopup="true" aria-expanded="false">
-                    الاستبيانات
-                    </a>
-                    <div class="dropdown-list p-2" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item border-bottom" href="../Questionnaires/customer_satisfaction_survey.html">قياس رضا المستفيدين</a>
-                        <a class="dropdown-item" href="../Questionnaires/employee_satisfaction_survey.html">قياس رضا العاملين</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown position-relative dropdown-list-hover">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  ="dropdown" aria-haspopup="true" aria-expanded="false">
-                    انضم معنا
-                    </a>
-                    <div class="dropdown-list p-2" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item border-bottom" href="../Join-with/employment.html">التوظيف</a>
-                        <a class="dropdown-item border-bottom" href="../Join-with/volunteering.html">التطوع</a>
-                        <a class="dropdown-item" href="../Join-with/membership.html">العضوية</a>
-                    </div>
-                </li>
-            </ul>
-            <ul class="my-2 my-lg-0 list-inline d-flex align-items-center">
-                <li class="mx-1" id="profileButton" style="display:none;">
-                    <a class="nav-link border-start" href="profile.html">
-                        الملف الشخصي
-                        <img src="../assets/icons/Home_page/heart 1.png" alt="">
-                    </a>
-                </li>
-                <li class="mx-1">
-                    <a class="nav-link border-start" href="conect_us.html">
-                        تواصل معنا 
-                        <img src="../assets/icons/Home_page/heart 1.png" alt="">
-                    </a>
-                </li>
-                <li class="mx-1">
-                    <a class="nav-link border-start" href="#">
-                        تبرع معنا 
-                        <img src="../assets/icons/Home_page/heart 1 (1).png" alt="">
-                    </a>
-                </li>
-                <li class="mx-1">
-                    <a class="nav-link cursor-pointer" id="loginButton">تسجيل الدخول</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div id="loginPopup" class="popup ">
-        <div class="popup-img">
-            <img src="../assets/icons/image 358.png" alt="">
-        </div>
-        <div class="popup-content p-5">
-            <span class="close-btn" onclick="closePopup()">X</span>
-            <div>
-                <img src="../assets/icons/icon1-removebg-preview.png" alt="">
+      <a class="navbar-brand" href="#"
+        ><img src="../assets/icons/Home_page/icon1.PNG" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item text-white">
+            <a class="nav-link" href="../index.html">الرئيسية</a>
+          </li>
+          <li
+            class="nav-item dropdown position-relative dropdown-list-hover mb-n3"
+          >
+            <a
+              class="nav-link dropdown-toggle active"
+              href="../about.html"
+              id="navbarDropdow"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              عن الجمعية
+            </a>
+            <div class="dropdown-list p-2">
+              <a class="dropdown-item border-bottom" href="about_us.html"
+                >من نحن</a
+              >
+              <a class="dropdown-item border-bottom" href="board_members.html"
+                >أعضاء مجلس الادارة</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="general_assembly_members.html"
+                >أعضاء الجمعية العموميه</a
+              >
+              <a class="dropdown-item border-bottom" href="CEO.html"
+                >المدير التنفيذي</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="association _team.html"
+                >فريق عمل الجمعية</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="organizational_structure.html"
+                >الهيكل التنظيمي</a
+              >
+              <a class="dropdown-item" href="our_services.html">خدماتنا</a>
             </div>
-            <h4 class="base-color text-center">تسجيل الدخول</h4>
-            <p class="fs-5 text-center text-secondary">رجاء قم بتعبئه البيانات التاليه لتسجيل الدخول</p>
-            <!-- أضف هنا نموذج تسجيل الدخول -->
-            <form class="w-75 mb-5">
-                <div class="mb-3">
-                    <label for="Email" class=" form-label base-color" required>البريد الالكتروني <span class="text-danger">*</span></label>
-                    <input type="email" class="form-control" id="Email" placeholder="البريد الالكتروني" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="password" class=" form-label base-color">كلمة المرورر <span class="text-danger">*</span></label>
-                    <input type="password" id="password" name="password" required class="form-control" >
-                </div>
-                <a class="base-color text-decoration-none" href="#">هل نسيت كلمة المرور؟</a>
-                <button type="submit" class="w-100 bg-base-color fw-bold text-white rounded mt-4 py-1 px-5">تسجيل الدخول</button>
-            </form>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Our_initiatives.html">مبادراتنا</a>
+          </li>
+          <li
+            class="nav-item dropdown position-relative dropdown-list-hover mb-n3"
+          >
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              ="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              المركز الاعلامي
+            </a>
+            <div class="dropdown-list p-2" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item border-bottom"
+                href="../Media-Center/news.html"
+                >الاخبار</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="../Media-Center/events.html"
+                >الفعاليات</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="../Media-Center/photo_gallery.html"
+                >مكتبة الصور</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="../Media-Center/video_gallery.html"
+                >مكتبة الفيديو</a
+              >
+              <a class="dropdown-item" href="../Media-Center/FAQs.html"
+                >الأسئله الشائعة</a
+              >
+            </div>
+          </li>
+          <li
+            class="nav-item dropdown position-relative dropdown-list-hover mb-n3"
+          >
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              ="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              الحوكمة
+            </a>
+            <div class="dropdown-list p-2" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item border-bottom"
+                href="../Governance/regulations&policies.html"
+                >اللوائح والسياسات</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="../Governance/operational_plans.html"
+                >الخطط التشغيلية</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="../Governance/Activity_Reports.html"
+                >تقارير الأنشطة</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="../Governance/Financial_Reports.html"
+                >التقارير المالية</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="../Governance/General_Assembly_Minutes.html"
+                >محاضر العموميه</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="../Governance/Disclosure&Transparency.html"
+                >الإفصاح والشفافية</a
+              >
+              <a class="dropdown-item" href="../Governance/Other.html">أخري</a>
+            </div>
+          </li>
+          <li
+            class="nav-item dropdown position-relative dropdown-list-hover mb-n3"
+          >
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              ="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              الاستبيانات
+            </a>
+            <div class="dropdown-list p-2" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item border-bottom"
+                href="../Questionnaires/customer_satisfaction_survey.html"
+                >قياس رضا المستفيدين</a
+              >
+              <a
+                class="dropdown-item"
+                href="../Questionnaires/employee_satisfaction_survey.html"
+                >قياس رضا العاملين</a
+              >
+            </div>
+          </li>
+          <li
+            class="nav-item dropdown position-relative dropdown-list-hover mb-n3"
+          >
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              ="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              انضم معنا
+            </a>
+            <div class="dropdown-list p-2" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item border-bottom"
+                href="../Join-with/employment.html"
+                >التوظيف</a
+              >
+              <a
+                class="dropdown-item border-bottom"
+                href="../Join-with/volunteering.html"
+                >التطوع</a
+              >
+              <a class="dropdown-item" href="../Join-with/membership.html"
+                >العضوية</a
+              >
+            </div>
+          </li>
+        </ul>
+        <ul class="my-2 my-lg-0 list-inline d-flex align-items-center">
+          <li class="mx-1" id="profileButton" style="display: none">
+            <a class="nav-link border-start" href="profile.html">
+              الملف الشخصي
+              <img src="../assets/icons/Home_page/heart 1.png" alt="" />
+            </a>
+          </li>
+          <li class="mx-1">
+            <a class="nav-link border-start" href="conect_us.html">
+              تواصل معنا
+              <img src="../assets/icons/Home_page/heart 1.png" alt="" />
+            </a>
+          </li>
+          <li class="mx-1">
+            <a class="nav-link border-start" href="#">
+              تبرع معنا
+              <img src="../assets/icons/Home_page/heart 1 (1).png" alt="" />
+            </a>
+          </li>
+          <li class="mx-1">
+            <a class="nav-link cursor-pointer" id="loginButton">تسجيل الدخول</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="loginPopup" class="popup">
+      <div class="popup-img">
+        <img src="../assets/icons/image 358.png" alt="" />
+      </div>
+      <div class="popup-content p-5">
+        <span class="close-btn" onclick="closePopup()">X</span>
+        <div>
+          <img src="../assets/icons/icon1-removebg-preview.png" alt="" />
         </div>
+        <h4 class="base-color text-center">تسجيل الدخول</h4>
+        <p class="fs-5 text-center text-secondary">
+          رجاء قم بتعبئه البيانات التاليه لتسجيل الدخول
+        </p>
+        <!-- أضف هنا نموذج تسجيل الدخول -->
+        <form class="w-75 mb-5">
+          <div class="mb-3">
+            <label for="Email" class="form-label base-color" required
+              >البريد الالكتروني <span class="text-danger">*</span></label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="Email"
+              placeholder="البريد الالكتروني"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label base-color"
+              >كلمة المرورر <span class="text-danger">*</span></label
+            >
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              class="form-control"
+            />
+          </div>
+          <a class="base-color text-decoration-none" href="#"
+            >هل نسيت كلمة المرور؟</a
+          >
+          <button
+            type="submit"
+            class="w-100 bg-base-color fw-bold text-white rounded mt-4 py-1 px-5"
+          >
+            تسجيل الدخول
+          </button>
+        </form>
+      </div>
     </div>
 
     <!-- header -->
 
     <header class="bg-base-color">
-        <div class="container p-5">
-            <div class="d-flex mb-3">
-                <img src="../assets/icons/Menu_icons/Rectangle 57 (3).png" alt="">
-                <h2 class="text-white pe-3">أعضاء الجمعية العموميه</h2>
-            </div>
-            <div class="mt-3 text-white">
-                <a href="../index.html" class="text-white text-decoration-none">الرئيسية</a>
-                <span>&gt;</span>
-                <a href="general_assembly_members.html" class="text-white text-decoration-none">أعضاء الجمعية العموميه</a>
-            </div>
+      <div class="container p-5">
+        <div class="d-flex mb-3">
+          <img src="../assets/icons/Menu_icons/Rectangle 57 (3).png" alt="" />
+          <h2 class="text-white pe-3">أعضاء الجمعية العموميه</h2>
         </div>
+        <div class="mt-3 text-white">
+          <a href="../index.html" class="text-white text-decoration-none"
+            >الرئيسية</a
+          >
+          <span>&gt;</span>
+          <a
+            href="general_assembly_members.html"
+            class="text-white text-decoration-none"
+            >أعضاء الجمعية العموميه</a
+          >
+        </div>
+      </div>
     </header>
 
-
-    <section class="bg-D2D4 pt-2" >
-        <div class="bg-white py-5 position-relative border-wav">
-            <div class="pos-abs">
-                <img src="../assets/icons/image 343.png" alt="" srcset="">
-            </div>
-            <div class="container my-5 pt-5">
-          
-                <div class="row my-5 justify-content-evenly">
-                    <div class="col-2 mx-4 my-5 bg-light-blue p-3 border-round position-relative">
-                        <div class="rounded-circle position-img">
-                            <img src="../assets/icons/Ellipse 14.png" alt="">
-                        </div>
-                        <div class="pt-5 mt-4 pb-3">
-                            <h5 class="base-color">د.عمر سراج سنبل</h5>
-                            <p>عضو الجمعية العمومية</p>
-                            <div>
-                                <a href=""><img src="../assets/icons/telegram.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/gmail.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/twitter.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/phone-call 1.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-2 mx-4 my-5 bg-light-blue p-3 border-round position-relative">
-                        <div class="rounded-circle position-img">
-                            <img src="../assets/icons/Ellipse 14.png" alt="">
-                        </div>
-                        <div class="pt-5 mt-4 pb-3">
-                            <h5 class="base-color">د.عمر سراج سنبل</h5>
-                            <p>عضو الجمعية العمومية</p>
-                            <div>
-                                <a href=""><img src="../assets/icons/telegram.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/gmail.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/twitter.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/phone-call 1.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-2 mx-4 my-5 bg-light-blue p-3 border-round position-relative">
-                        <div class="rounded-circle position-img">
-                            <img src="../assets/icons/Ellipse 14.png" alt="">
-                        </div>
-                        <div class="pt-5 mt-4 pb-3">
-                            <h5 class="base-color">د.عمر سراج سنبل</h5>
-                            <p>عضو الجمعية العمومية</p>
-                            <div>
-                                <a href=""><img src="../assets/icons/telegram.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/gmail.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/twitter.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/phone-call 1.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row my-5 justify-content-evenly">
-                    <div class="col-2 mx-4 my-5 bg-light-blue p-3 border-round position-relative">
-                        <div class="rounded-circle position-img">
-                            <img src="../assets/icons/Ellipse 14.png" alt="">
-                        </div>
-                        <div class="pt-5 mt-4 pb-3">
-                            <h5 class="base-color">د.عمر سراج سنبل</h5>
-                            <p>عضو الجمعية العمومية</p>
-                            <div>
-                                <a href=""><img src="../assets/icons/telegram.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/gmail.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/twitter.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/phone-call 1.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-2 mx-4 my-5 bg-light-blue p-3 border-round position-relative">
-                        <div class="rounded-circle position-img">
-                            <img src="../assets/icons/Ellipse 14.png" alt="">
-                        </div>
-                        <div class="pt-5 mt-4 pb-3">
-                            <h5 class="base-color">د.عمر سراج سنبل</h5>
-                            <p>عضو الجمعية العمومية</p>
-                            <div>
-                                <a href=""><img src="../assets/icons/telegram.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/gmail.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/twitter.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/phone-call 1.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-2 mx-4 my-5 bg-light-blue p-3 border-round position-relative">
-                        <div class="rounded-circle position-img">
-                            <img src="../assets/icons/Ellipse 14.png" alt="">
-                        </div>
-                        <div class="pt-5 mt-4 pb-3">
-                            <h5 class="base-color">د.عمر سراج سنبل</h5>
-                            <p>عضو الجمعية العمومية</p>
-                            <div>
-                                <a href=""><img src="../assets/icons/telegram.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/gmail.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/twitter.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/phone-call 1.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row my-5 justify-content-evenly">
-                    <div class="col-2 mx-4 my-5 bg-light-blue p-3 border-round position-relative">
-                        <div class="rounded-circle position-img">
-                            <img src="../assets/icons/Ellipse 14.png" alt="">
-                        </div>
-                        <div class="pt-5 mt-4 pb-3">
-                            <h5 class="base-color">د.عمر سراج سنبل</h5>
-                            <p>عضو الجمعية العمومية</p>
-                            <div>
-                                <a href=""><img src="../assets/icons/telegram.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/gmail.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/twitter.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/phone-call 1.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-2 mx-4 my-5 bg-light-blue p-3 border-round position-relative">
-                        <div class="rounded-circle position-img">
-                            <img src="../assets/icons/Ellipse 14.png" alt="">
-                        </div>
-                        <div class="pt-5 mt-4 pb-3">
-                            <h5 class="base-color">د.عمر سراج سنبل</h5>
-                            <p>عضو الجمعية العمومية</p>
-                            <div>
-                                <a href=""><img src="../assets/icons/telegram.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/gmail.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/twitter.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/phone-call 1.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-2 mx-4 my-5 bg-light-blue p-3 border-round position-relative">
-                        <div class="rounded-circle position-img">
-                            <img src="../assets/icons/Ellipse 14.png" alt="">
-                        </div>
-                        <div class="pt-5 mt-4 pb-3">
-                            <h5 class="base-color">د.عمر سراج سنبل</h5>
-                            <p>عضو الجمعية العمومية</p>
-                            <div>
-                                <a href=""><img src="../assets/icons/telegram.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/gmail.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/twitter.png" alt=""></a>
-                                <a href=""><img src="../assets/icons/phone-call 1.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="bg-D2D4 pt-2">
+      <div class="bg-white py-5 position-relative border-wav">
+        <div class="pos-abs">
+          <img src="../assets/icons/image 343.png" alt="" srcset="" />
         </div>
+        <div class="container my-5 pt-5">
+          <div class="row my-3 justify-content-center gap-3">
+            <div
+              class="col-12 mx-4 my-5 bg-light-blue p-3 border-round position-relative card w-auto"
+            >
+              <div class="rounded-circle position-img">
+                <img src="../assets/icons/Ellipse 14.png" alt="" />
+              </div>
+              <div class="pt-5 mt-4 pb-3">
+                <h5 class="base-color">د.عمر سراج سنبل</h5>
+                <p>المسمى الوظيفي</p>
+                <div>
+                  <a href=""
+                    ><img src="../assets/icons/telegram.png" alt=""
+                  /></a>
+                  <a href=""><img src="../assets/icons/gmail.png" alt="" /></a>
+                  <a href=""
+                    ><img src="../assets/icons/twitter.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../assets/icons/phone-call 1.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 mx-4 my-5 bg-light-blue p-3 border-round position-relative card w-auto"
+            >
+              <div class="rounded-circle position-img">
+                <img src="../assets/icons/Ellipse 14.png" alt="" />
+              </div>
+              <div class="pt-5 mt-4 pb-3">
+                <h5 class="base-color">د.عمر سراج سنبل</h5>
+                <p>المسمى الوظيفي</p>
+                <div>
+                  <a href=""
+                    ><img src="../assets/icons/telegram.png" alt=""
+                  /></a>
+                  <a href=""><img src="../assets/icons/gmail.png" alt="" /></a>
+                  <a href=""
+                    ><img src="../assets/icons/twitter.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../assets/icons/phone-call 1.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 mx-4 my-5 bg-light-blue p-3 border-round position-relative card w-auto"
+            >
+              <div class="rounded-circle position-img">
+                <img src="../assets/icons/Ellipse 14.png" alt="" />
+              </div>
+              <div class="pt-5 mt-4 pb-3">
+                <h5 class="base-color">د.عمر سراج سنبل</h5>
+                <p>المسمى الوظيفي</p>
+                <div>
+                  <a href=""
+                    ><img src="../assets/icons/telegram.png" alt=""
+                  /></a>
+                  <a href=""><img src="../assets/icons/gmail.png" alt="" /></a>
+                  <a href=""
+                    ><img src="../assets/icons/twitter.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../assets/icons/phone-call 1.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3 justify-content-center gap-3">
+            <div
+              class="col-12 mx-4 my-5 bg-light-blue p-3 border-round position-relative card w-auto"
+            >
+              <div class="rounded-circle position-img">
+                <img src="../assets/icons/Ellipse 14.png" alt="" />
+              </div>
+              <div class="pt-5 mt-4 pb-3">
+                <h5 class="base-color">د.عمر سراج سنبل</h5>
+                <p>المسمى الوظيفي</p>
+                <div>
+                  <a href=""
+                    ><img src="../assets/icons/telegram.png" alt=""
+                  /></a>
+                  <a href=""><img src="../assets/icons/gmail.png" alt="" /></a>
+                  <a href=""
+                    ><img src="../assets/icons/twitter.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../assets/icons/phone-call 1.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 mx-4 my-5 bg-light-blue p-3 border-round position-relative card w-auto"
+            >
+              <div class="rounded-circle position-img">
+                <img src="../assets/icons/Ellipse 14.png" alt="" />
+              </div>
+              <div class="pt-5 mt-4 pb-3">
+                <h5 class="base-color">د.عمر سراج سنبل</h5>
+                <p>المسمى الوظيفي</p>
+                <div>
+                  <a href=""
+                    ><img src="../assets/icons/telegram.png" alt=""
+                  /></a>
+                  <a href=""><img src="../assets/icons/gmail.png" alt="" /></a>
+                  <a href=""
+                    ><img src="../assets/icons/twitter.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../assets/icons/phone-call 1.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 mx-4 my-5 bg-light-blue p-3 border-round position-relative card w-auto"
+            >
+              <div class="rounded-circle position-img">
+                <img src="../assets/icons/Ellipse 14.png" alt="" />
+              </div>
+              <div class="pt-5 mt-4 pb-3">
+                <h5 class="base-color">د.عمر سراج سنبل</h5>
+                <p>المسمى الوظيفي</p>
+                <div>
+                  <a href=""
+                    ><img src="../assets/icons/telegram.png" alt=""
+                  /></a>
+                  <a href=""><img src="../assets/icons/gmail.png" alt="" /></a>
+                  <a href=""
+                    ><img src="../assets/icons/twitter.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../assets/icons/phone-call 1.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3 justify-content-center gap-3">
+            <div
+              class="col-12 mx-4 my-5 bg-light-blue p-3 border-round position-relative card w-auto"
+            >
+              <div class="rounded-circle position-img">
+                <img src="../assets/icons/Ellipse 14.png" alt="" />
+              </div>
+              <div class="pt-5 mt-4 pb-3">
+                <h5 class="base-color">د.عمر سراج سنبل</h5>
+                <p>المسمى الوظيفي</p>
+                <div>
+                  <a href=""
+                    ><img src="../assets/icons/telegram.png" alt=""
+                  /></a>
+                  <a href=""><img src="../assets/icons/gmail.png" alt="" /></a>
+                  <a href=""
+                    ><img src="../assets/icons/twitter.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../assets/icons/phone-call 1.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 mx-4 my-5 bg-light-blue p-3 border-round position-relative card w-auto"
+            >
+              <div class="rounded-circle position-img">
+                <img src="../assets/icons/Ellipse 14.png" alt="" />
+              </div>
+              <div class="pt-5 mt-4 pb-3">
+                <h5 class="base-color">د.عمر سراج سنبل</h5>
+                <p>المسمى الوظيفي</p>
+                <div>
+                  <a href=""
+                    ><img src="../assets/icons/telegram.png" alt=""
+                  /></a>
+                  <a href=""><img src="../assets/icons/gmail.png" alt="" /></a>
+                  <a href=""
+                    ><img src="../assets/icons/twitter.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../assets/icons/phone-call 1.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 mx-4 my-5 bg-light-blue p-3 border-round position-relative card w-auto"
+            >
+              <div class="rounded-circle position-img">
+                <img src="../assets/icons/Ellipse 14.png" alt="" />
+              </div>
+              <div class="pt-5 mt-4 pb-3">
+                <h5 class="base-color">د.عمر سراج سنبل</h5>
+                <p>المسمى الوظيفي</p>
+                <div>
+                  <a href=""
+                    ><img src="../assets/icons/telegram.png" alt=""
+                  /></a>
+                  <a href=""><img src="../assets/icons/gmail.png" alt="" /></a>
+                  <a href=""
+                    ><img src="../assets/icons/twitter.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../assets/icons/phone-call 1.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- div white -->
 
@@ -319,69 +561,156 @@
     <!-- footer -->
 
     <footer class="pt-5 pb-1 bg-base-color">
-        <div class="container">
-            <div class="row justify-content-evenly">
-                <div class="col-12 col-md-6 col-lg-6 row">
-                    <div class="col-11 col-lg-6">
-                        <h6 class="text-white text-center pb-2">الروابط السريعة</h6>
-                        <hr class=" w-75 m-auto border border-white">
-                        <div class="py-3">
-                            <img src="../assets/icons/images-removebg-preview.png" width="15" height="15" alt="">
-                            <a class="text-white text-decoration-none py-3 ps-1" href="#">خدماتنا </a>
-                        </div>
-                        <div class="py-3">
-                            <img src="../assets/icons/images-removebg-preview.png" width="15" height="15" alt="">
-                            <a class="text-white text-decoration-none py-3 ps-1" href="#">مبادراتنا</a>
-                        </div>
-                        <div class="py-3">
-                            <img src="../assets/icons/images-removebg-preview.png" width="15" height="15" alt="">
-                            <a class="text-white text-decoration-none py-3 ps-1" href="#">تواصل معنا</a>
-                        </div>
-                    </div>
-                    <div class="col-11 col-lg-6">
-                        <h6 class="text-white text-center pb-2">مواقع التواصل الاجتماعي</h6>
-                        <hr class="m-auto border border-white">
-                        <div class="p-0 p-lg-3 text-center">
-                            <div>
-                                <a href="#"><img class="p-2" src="../assets/icons/Home_page/tik-tok 1.png" alt=""></a>
-                                <a href="#"><img class="p-2" src="../assets/icons/Home_page/twitter 1.png" alt=""></a>
-                                <a href="#"><img class="p-2" src="../assets/icons/Home_page/instagram 2.png" alt=""></a>
-                            </div>
-                            <div>
-                                <a href="#"><img class="p-2" src="../assets/icons/Home_page/gmail 1.png" alt=""></a>
-                                <a href="#"><img class="p-2" src="../assets/icons/Home_page/whatsapp 2.png" alt=""></a>
-                                <a href="#"><img class="p-2" src="../assets/icons/Home_page/youtube (1) 2.png" alt=""></a>
-                            </div>
-                            <div>
-                                <a href="#"><img class="p-2" src="../assets/icons/Home_page/snapchat 1.png" alt=""></a>
-                                <a href="#"><img class="p-2" src="../assets/icons/Home_page/telegram 1.png" alt=""></a>
-                                <a href="#"><img class="p-2" src="../assets/icons/Home_page/facebook 2.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-11 col-lg-6">
-                        <h6 class="text-white text-center pb-2">الاشتراك البريدي</h6>
-                        <hr class=" w-75 m-auto border border-white">
-                    </div>
-                    <div class="col-12 col-lg-12">
-                        <form action="" class="pt-4">
-                            <label for="" class="text-white fs-6 ms-3">كن على معرفه بجديدنا</label>
-                            <input type="email" class="p-1 rounded ms-3" placeholder="البريد الالكتروني" >
-                            <button class="rounded py-1 bg-white shadow px-4 base-color fw-bold">اشترك معنا</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 overflow-hidden mt-4 text-center">
-                    <img src="../assets/icons/Home_page/Screenshot 2024-01-07 at 2.03 1.png" alt="">
-                </div>
+      <div class="container">
+        <div class="row justify-content-evenly">
+          <div class="col-12 col-md-6 col-lg-6 row">
+            <div class="col-11 col-lg-6">
+              <h6 class="text-white text-center pb-2">الروابط السريعة</h6>
+              <hr class="w-75 m-auto border border-white" />
+              <div class="py-3">
+                <img
+                  src="../assets/icons/images-removebg-preview.png"
+                  width="15"
+                  height="15"
+                  alt=""
+                />
+                <a class="text-white text-decoration-none py-3 ps-1" href="#"
+                  >خدماتنا
+                </a>
+              </div>
+              <div class="py-3">
+                <img
+                  src="../assets/icons/images-removebg-preview.png"
+                  width="15"
+                  height="15"
+                  alt=""
+                />
+                <a class="text-white text-decoration-none py-3 ps-1" href="#"
+                  >مبادراتنا</a
+                >
+              </div>
+              <div class="py-3">
+                <img
+                  src="../assets/icons/images-removebg-preview.png"
+                  width="15"
+                  height="15"
+                  alt=""
+                />
+                <a class="text-white text-decoration-none py-3 ps-1" href="#"
+                  >تواصل معنا</a
+                >
+              </div>
             </div>
-            <hr class="white-line mt-5">
-            <p class="fs-6 text-white text-center mt-4">جميع الحقوق محفوظه | @ اسم الجمعيه</p>
+            <div class="col-11 col-lg-6">
+              <h6 class="text-white text-center pb-2">
+                مواقع التواصل الاجتماعي
+              </h6>
+              <hr class="m-auto border border-white" />
+              <div class="p-0 p-lg-3 text-center">
+                <div>
+                  <a href="#"
+                    ><img
+                      class="p-2"
+                      src="../assets/icons/Home_page/tik-tok 1.png"
+                      alt=""
+                  /></a>
+                  <a href="#"
+                    ><img
+                      class="p-2"
+                      src="../assets/icons/Home_page/twitter 1.png"
+                      alt=""
+                  /></a>
+                  <a href="#"
+                    ><img
+                      class="p-2"
+                      src="../assets/icons/Home_page/instagram 2.png"
+                      alt=""
+                  /></a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><img
+                      class="p-2"
+                      src="../assets/icons/Home_page/gmail 1.png"
+                      alt=""
+                  /></a>
+                  <a href="#"
+                    ><img
+                      class="p-2"
+                      src="../assets/icons/Home_page/whatsapp 2.png"
+                      alt=""
+                  /></a>
+                  <a href="#"
+                    ><img
+                      class="p-2"
+                      src="../assets/icons/Home_page/youtube (1) 2.png"
+                      alt=""
+                  /></a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><img
+                      class="p-2"
+                      src="../assets/icons/Home_page/snapchat 1.png"
+                      alt=""
+                  /></a>
+                  <a href="#"
+                    ><img
+                      class="p-2"
+                      src="../assets/icons/Home_page/telegram 1.png"
+                      alt=""
+                  /></a>
+                  <a href="#"
+                    ><img
+                      class="p-2"
+                      src="../assets/icons/Home_page/facebook 2.png"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-lg-6">
+              <h6 class="text-white text-center pb-2">الاشتراك البريدي</h6>
+              <hr class="w-75 m-auto border border-white" />
+            </div>
+            <div class="col-12 col-lg-12">
+              <form action="" class="pt-4">
+                <label for="" class="text-white fs-6 ms-3"
+                  >كن على معرفه بجديدنا</label
+                >
+                <input
+                  type="email"
+                  class="p-1 rounded ms-3"
+                  placeholder="البريد الالكتروني"
+                />
+                <button
+                  class="rounded py-1 bg-white shadow px-4 base-color fw-bold"
+                >
+                  اشترك معنا
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 overflow-hidden mt-4 text-center">
+            <img
+              src="../assets/icons/Home_page/Screenshot 2024-01-07 at 2.03 1.png"
+              alt=""
+            />
+          </div>
         </div>
+        <hr class="white-line mt-5" />
+        <p class="fs-6 text-white text-center mt-4">
+          جميع الحقوق محفوظه | @ اسم الجمعيه
+        </p>
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="../assets/js/script.js"></script>
-    </body>
+  </body>
 </html>
