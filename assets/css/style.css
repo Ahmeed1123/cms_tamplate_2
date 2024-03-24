@@ -919,3 +919,22 @@ body {
   background-color: var(--bs-gray-300);
 }
 /* faqs page end */
+/* modal edit style start */
+.btn-close {
+  background-image: none !important;
+}
+@media (max-width: 992px) {
+  .modal-dialog {
+    max-width: 580px !important;
+    margin: 10px auto !important;
+  }
+}
+/* poup up start edit */
+div:where(.swal2-container) div:where(.swal2-popup) {
+  padding: 3em 0 5em !important;
+}
+.bg-praimary {
+  background-color: var(--praimary) !important;
+}
+/* poup up end edit */
+/* modal edit style end*/
