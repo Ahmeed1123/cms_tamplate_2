@@ -11,7 +11,26 @@
 }
 body {
   direction: rtl;
+  overflow-x: hidden;
 }
+/* slider home page start */
+.owl-carousel {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.owl-carousel .item {
+  margin: 10px !important;
+  padding: 8%;
+}
+.owl-carousel img {
+  width: 100% !important;
+  height: auto !important;
+}
+.owl-carousel.remove-arrow .owl-nav {
+  display: none !important;
+}
+/* slider home page end */
 .mb-n3 {
   margin-bottom: -1rem;
 }
@@ -262,6 +281,19 @@ body {
   position: absolute;
   top: -200px;
   left: 45px;
+}
+.swiper-slide {
+  max-height: 300px !important;
+}
+@media screen and (max-width: 576px) {
+  .pos-abs {
+    position: absolute;
+    top: -120px;
+    left: 20px;
+  }
+  .about-sec {
+    padding-top: 50px !important;
+  }
 }
 .bg-hadf-div {
   background: #828ad3;
