@@ -469,89 +469,131 @@
 
     <section class="about_sectio pb-2">
       <div class="about_section_top p-5 pe-2 pe-lg-5">
-        <div class="container">
-          <!-- Navbar -->
-          <nav class="custom-navbar navbar-expand-lg bg-white border-rounded">
-            <div class="container">
-              <ul
-                class="custom-navbar-nav navbar-nav d-flex gap-lg-4 gap-2 flex-lg-row flex-column mx-0 px-0"
+        <nav class="custom-navbar navbar-expand-lg bg-white border-rounded">
+          <ul
+            class="custom-navbar-nav navbar-nav d-flex gap-lg-4 gap-2 flex-lg-row flex-column mx-0 px-0"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li
+              class="custom-nav-item p-0 border-rounded btn-shadow w-lg-auto w-100"
+              role="presentation"
+            >
+              <button
+                class="custom-nav-link border-rounded nav-link w-100 border-0 m-0 active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
               >
-                <!-- الاختيارات في النافبار -->
-                <li
-                  class="custom-nav-item nav-item px-2 border-rounded btn-shadow w-lg-auto w-100 activ"
-                  id="option1"
-                >
-                  <a class="custom-nav-link nav-link" href="#section1"
-                    >النبذة
-                  </a>
-                </li>
-                <li
-                  class="custom-nav-item nav-item px-2 border-rounded btn-shadow w-lg-auto w-100"
-                  id="option2"
-                >
-                  <a class="custom-nav-link nav-link" href="#section2"
-                    >أهدافنا</a
-                  >
-                </li>
-                <li
-                  class="custom-nav-item nav-item px-2 border-rounded btn-shadow w-lg-auto w-100"
-                  id="option3"
-                >
-                  <a class="custom-nav-link nav-link" href="#section3"
-                    >الرؤيه والرسالة</a
-                  >
-                </li>
-                <li
-                  class="custom-nav-item nav-item px-2 border-rounded btn-shadow w-lg-auto w-100"
-                  id="option4"
-                >
-                  <a class="custom-nav-link nav-link" href="#section4"
-                    >المجالات</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <!-- Sections -->
-          <div class="container">
-            <div id="section1" class="custom-section section fade show activ">
-              <div class="">
-                <div class="d-flex align-items-center">
-                  <img src="assets/icons/Home_page/Rectangle 57.png" alt="" />
-                  <h3 class="pe-2 mb-0">نبذة عنا</h3>
-                </div>
-                <p class="pt-3">
-                  محتوى الوصف التفصيلي محتوى الوصف التفصيلي محتوى الوصف التفصيلي
-                  محتوى الوصف التفصيلي محتوى الوصف التفصيلي محتوى الوصف التفصيلي
-                  محتوى الوصف التفصيلي محتوى الوصف التفصيلي الوصف التفصيلي محتوى
-                  الوصف التفصيلي محتوى الوصف التفصيلي محتوى الوصف التفصيلي محتوى
-                </p>
-              </div>
-            </div>
-
-            <div id="section2" class="custom-section section fade show">
+                النبذة
+              </button>
+            </li>
+            <li
+              class="custom-nav-item p-0 border-rounded btn-shadow w-lg-auto w-100"
+              role="presentation"
+            >
+              <button
+                class="custom-nav-link nav-link w-100 border-rounded border-0 m-0"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                أهدافنا
+              </button>
+            </li>
+            <li
+              class="custom-nav-item p-0 border-rounded btn-shadow w-lg-auto w-100"
+              role="presentation"
+            >
+              <button
+                class="custom-nav-link nav-link border-rounded border-0 w-100 m-0"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-contact"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                الرؤيه والرسالة
+              </button>
+            </li>
+            <li
+              class="custom-nav-item p-0 border-rounded btn-shadow w-lg-auto w-100"
+              role="presentation"
+            >
+              <button
+                class="custom-nav-link nav-link border-rounded border-0 w-100 m-0"
+                id="pills-mjalat-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-mjalat"
+                type="button"
+                role="tab"
+                aria-controls="pills-mjalat"
+                aria-selected="false"
+              >
+                مجالاتنا
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane custom-section section fade show active"
+            id="pills-home"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            <div>
               <div class="d-flex align-items-center">
+                <img src="assets/icons/Home_page/Rectangle 57.png" alt="" />
+                <h3 class="pe-2 mb-0">نبذة عنا</h3>
+              </div>
+              <p class="pt-3">
+                محتوى الوصف التفصيلي محتوى الوصف التفصيلي محتوى الوصف التفصيلي
+                محتوى الوصف التفصيلي محتوى الوصف التفصيلي محتوى الوصف التفصيلي
+                محتوى الوصف التفصيلي محتوى الوصف التفصيلي الوصف التفصيلي محتوى
+                الوصف التفصيلي محتوى الوصف التفصيلي محتوى الوصف التفصيلي محتوى
+              </p>
+            </div>
+          </div>
+          <div
+            class="tab-pane custom-section section fade"
+            id="pills-profile"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+            <div>
+              <div class="d-flex align-items-center mb-3">
                 <img src="assets/icons/Home_page/Rectangle 57 (2).png" alt="" />
                 <h3 class="pe-2 mb-0">اهدافنا</h3>
               </div>
 
               <div class="container-fluid p-0">
                 <div class="row g-0">
-                  <div class="col-lg-3 number-container">
+                  <div class="col-lg col-md-5 number-container">
                     <div class="number">1</div>
                     <div class="text">
                       محتوى الهدف الأول ، محتوى الهدف الأول .
                     </div>
                   </div>
 
-                  <div class="col-lg-3 number-container">
+                  <div class="col-lg col-md-5 number-container">
                     <div class="number">2</div>
                     <div class="text">
                       محتوى الهدف الثاني ، محتوى الهدف الثاني .
                     </div>
                   </div>
 
-                  <div class="col-lg-3 number-container">
+                  <div class="col-lg col-md-5 number-container">
                     <div class="number">3</div>
                     <div class="text">
                       محتوى الهدف الثالث ، محتوى الهدف الثالث .
@@ -560,21 +602,21 @@
                 </div>
 
                 <div class="row g-0">
-                  <div class="col-lg-3 number-container">
+                  <div class="col-lg col-md-5 number-container">
                     <div class="number">4</div>
                     <div class="text">
                       محتوى الهدف الرابع ، محتوى الهدف الرابع .
                     </div>
                   </div>
 
-                  <div class="col-lg-3 number-container">
+                  <div class="col-lg col-md-5 number-container">
                     <div class="number">5</div>
                     <div class="text">
                       محتوى الهدف الخامس ، محتوى الهدف الخامس .
                     </div>
                   </div>
 
-                  <div class="col-lg-3 number-container">
+                  <div class="col-lg col-md-5 number-container">
                     <div class="number">6</div>
                     <div class="text">
                       محتوى الهدف السادس ، محتوى الهدف السادس .
@@ -584,42 +626,86 @@
               </div>
             </div>
           </div>
-        </div>
-        <!--هذي قفلة الكونتينر كل شي في السكشن حيكون هنا جوا-->
-        <div id="section3" class="custom-section section">
-          <div>
-            <div class="d-flex align-items-center fade show">
-              <img src="assets/icons/Home_page/Rectangle 57 .png" alt="" />
-              <h3 class="pe-2 mb-0">الرؤيه والرسالة</h3>
+          <div
+            class="tab-pane custom-section section fade"
+            id="pills-contact"
+            role="tabpanel"
+            aria-labelledby="pills-contact-tab"
+          >
+            <div>
+              <div class="d-flex align-items-center fade show">
+                <img src="assets/icons/Home_page/Rectangle 57 .png" alt="" />
+              </div>
+              <div class="container-fluid">
+                <div class="row justify-content-end align-items-center mt-5">
+                  <div
+                    class="col-lg-7 row col-md-9 col-sm-10 col-11 bg-light-blue d-flex px-3 py-5 border-rounded align-items-center"
+                  >
+                    <div class="col-md-3">
+                      <img
+                        src="../assets/icons/who_are_we/vision 1.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="align-items-center px-4 col-md">
+                      <h4 class="base-color">رؤيتنا</h4>
+                      <p>
+                        نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي
+                        الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه
+                        نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي
+                        الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه
+                        نص محتوي الرؤيه نص محتوي الرؤيه
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-start align-items-center my-5">
+                  <div
+                    class="col-lg-7 col-md-9 col-sm-10 col-11 row flex-md-row flex-column-reverse bg-light-blue d-flex px-3 py-5 border-rounded align-items-center"
+                  >
+                    <div class="align-items-center px-3 col-md">
+                      <h4 class="base-color">رسالتنا</h4>
+                      <p>
+                        نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي
+                        الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه
+                        نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي
+                        الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه نص محتوي الرؤيه
+                        نص محتوي الرؤيه نص محتوي الرؤيه
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        src="../assets/icons/who_are_we/vision 2 (1).png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p class="pt-3">
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-            </p>
           </div>
-        </div>
-        <div id="section4" class="custom-section section">
-          <div>
-            <div class="d-flex align-items-center">
-              <img src="assets/icons/Home_page/Rectangle 57 (5).png" alt="" />
-              <h3 class="pe-2 mb-0">مجالاتنا</h3>
+          <div
+            class="tab-pane custom-section section fade"
+            id="pills-mjalat"
+            role="tabpanel"
+            aria-labelledby="pills-mjalat-tab"
+          >
+            <div>
+              <div class="d-flex align-items-center">
+                <img src="assets/icons/Home_page/Rectangle 57 (5).png" alt="" />
+                <h3 class="pe-2 mb-0">مجالاتنا</h3>
+              </div>
+              <p class="pt-3">
+                محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
+                محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
+                محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
+                محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
+                محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
+                محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
+                محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
+                محتوي الوصف التفصيلي محتوي الوصف التفصيلي
+              </p>
             </div>
-            <p class="pt-3">
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-              محتوي الوصف التفصيلي محتوي الوصف التفصيلي
-            </p>
           </div>
         </div>
       </div>
@@ -864,7 +950,7 @@
         <img src="assets/icons/Home_page/Rectangle 60.png" alt="" />
         <h2 class="base-color pe-3">الشركاء</h2>
       </div>
-      <div dir="ltr" class="owl-carousel remove-arrow">
+      <div class="owl-carousel remove-arrow">
         <div class="item">
           <img src="assets/icons/Home_page/min_slid.png" alt="Image 1" />
         </div>
@@ -881,7 +967,6 @@
       </div>
     </section>
     <!-- footer -->
-
     <footer class="pt-5 pb-3 bg-base-color">
       <div class="container">
         <div class="row justify-content-evenly">
@@ -1044,6 +1129,7 @@
           loop: true,
           margin: 60,
           nav: true,
+          rtl: true,
           responsive: {
             0: {
               items: 2,
